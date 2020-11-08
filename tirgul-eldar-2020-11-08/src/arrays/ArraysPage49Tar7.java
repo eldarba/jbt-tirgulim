@@ -18,6 +18,7 @@ public class ArraysPage49Tar7 {
 			char c = sc.next().charAt(0);
 			arr[i] = c;
 
+			// notice that Hebrew characters are gibberish in Github website
 			if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z' || c >= 'à' && c <= 'ú') {
 				numOfLetters++;
 			} else if (c >= '1' && c <= '9') {
